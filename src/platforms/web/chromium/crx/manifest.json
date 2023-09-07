@@ -1,0 +1,36 @@
+{
+    "name": "Snap4Arduino connector",
+    "description": "Connect Berkeley Snap! to Arduino boards",
+    "version": "8.0",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "page": "background.html"
+        }
+    },
+    "permissions": [
+        "serial"
+    ],
+    "externally_connectable": {
+        "matches": [
+            "http://localhost:8080/*",
+            "http://localhost/*",
+            "http://snap4arduino.local/*",
+            "http://snap4arduino.rocks/*",
+            "https://snap4arduino.rocks/*",
+            "https://snap.berkeley.edu/*",
+            "http://extensions.snap.berkeley.edu/*",
+            "https://snapstudio.rocks/*",
+            "https://odissea.xtec.cat/*",
+            "https://agora.xtec.cat/*",
+            "https://educaciodigital.cat/*",
+            "https://cesire.cat/*",
+            "https://www.robolot.online/*",
+            "https://campus.innovadidactic.com/*",
+            "https://snap2make.click/*"
+        ],
+        "accepts_tls_channel_id": false
+    },
+    "icons": { "16": "icon-16.png", "128": "icon-128.png" },
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs/TZdN2upa+vnxAIQKWQ/mhyZpw+Rc48ByKRcXCFBSbjnmN2gvKw6wT3lFAaWYKWoKImLgNhF3gzc9Mo0Nijoh3JTo0XLIJDqV9hOaIJy0ZKOPNVJ8HmyAtCBPQMmiWVlq+0UIvs+bUxn/kVKnlDGymgUJZyf/5wmaU+C4bNNOTwPgn7pnvWb0zyYelzyFq4fATd1xmWVJJTw2Vd5Ypdg6Ew37FeipjgTyTF4vLdahhwe5Wqu5HE7yK7NbvaG0ubVxI2MUxuhDPbmus5f7K89lRmcAs1Z8TvCpETxuGs4BpXcVp2/OacKvCWRo7Gkh9c+SikNvGAmtcjzOdMboGOEQIDAQAB"
+}
