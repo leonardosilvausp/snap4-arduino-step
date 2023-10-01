@@ -128,7 +128,7 @@ build() {
         cp src/Backgrounds/BACKGROUNDS tmp/Backgrounds/BACKGROUNDS
 
         echo "Changing GUI setup of Snap..."
-        cp src/src/gui.js tmp/gui.js 
+        cp src/src/gui.js tmp/src/gui.js 
 
         echo "Fetching Snap4Arduino core..."
         if ! cp -R src/s4a tmp; then

@@ -1,6 +1,6 @@
 /*
 
-    gui.js
+    gui.js - Customized!
 
     a programming environment
     based on morphic.js, blocks.js, threads.js and objects.js
