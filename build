@@ -119,8 +119,16 @@ build() {
         echo "Fetching Snap4Arduino Costumes..."
         cp -R src/Costumes/*.png tmp/Costumes
         cp -R src/Costumes/*.svg tmp/Costumes
-        cat src/Costumes/COSTUMES >> tmp/Costumes/COSTUMES
-        cat src/Costumes/COSTUMES >> tmp/Costumes/COSTUMES-full
+        cp src/Costumes/COSTUMES tmp/Costumes/COSTUMES
+        cp src/Costumes/COSTUMES tmp/Costumes/COSTUMES-full
+
+        echo "Fetching Snap4Arduino Backgrounds..."
+        cp -R src/Backgrounds/*.png tmp/Backgrounds
+        cp -R src/Backgrounds/*.svg tmp/Backgrounds
+        cp src/Backgrounds/BACKGROUNDS tmp/Backgrounds/BACKGROUNDS
+
+        echo "Changing GUI setup of Snap..."
+        cp src/src/gui.js tmp/gui.js 
 
         echo "Fetching Snap4Arduino core..."
         if ! cp -R src/s4a tmp; then

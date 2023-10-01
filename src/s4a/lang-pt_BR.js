@@ -92,6 +92,9 @@ s4aTempDict = {
     'angle (0-180)':
         'com ângulo (0-180)',
 
+    'arduino connected?':
+        'arduino conectado?',
+
     'connect to Arduino':
         'conectar ao Arduino',
 
@@ -128,7 +131,7 @@ s4aTempDict = {
     'set pin %pwmPin to value %n':
         'coloque no pino %pwmPin o valor %n',
 
-    'Connecting board at port\n': 
+    'Connecting board at port\n':
         'Conectando o Arduino na porta\n',
 
     'An Arduino board has been connected. Happy prototyping!':
@@ -162,7 +165,7 @@ s4aTempDict = {
         'O Arduino não está conectado',
 
     'New Arduino translatable project':
-        'Novo projeto tradutível para Arduino' 
+        'Novo projeto tradutível para Arduino'
 
 };
 

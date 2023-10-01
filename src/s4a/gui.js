@@ -1233,7 +1233,7 @@ IDE_Morph.prototype.flushBlocksCache = function (category) {
 
 //Replacing window title
 IDE_Morph.prototype.snap4arduinoTitle = function () {
-    document.title = "Snap4Arduino " +
+    document.title = "STEP " +
         (this.getProjectName() ? this.getProjectName() : this.sn4a_version());
 };
 IDE_Morph.prototype.original_setProjectName = IDE_Morph.prototype.setProjectName;

@@ -1,6 +1,6 @@
 {
-  "name": "Snap4Arduino",
-  "short_name": "Snap4Arduino",
+  "name": "STEP",
+  "short_name": "STEP",
   "icons": [{
       "src": "img/app_72.png",
       "sizes": "72x72",
@@ -43,7 +43,7 @@
       "sizes": "512x512",
       "type": "image/png"
     }],
-  "lang": "en-US",
+  "lang": "pt-BR",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "white",

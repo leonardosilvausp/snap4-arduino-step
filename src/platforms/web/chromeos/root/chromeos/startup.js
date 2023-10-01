@@ -8,7 +8,7 @@ BlockMorph.prototype.transpileToC = function () {
 
     try {
         saveFile(
-                ide.projectName ? ide.projectName.replace(/[^a-zA-Z]/g,'') : 'snap4arduino',
+                ide.projectName ? ide.projectName.replace(/[^a-zA-Z]/g,'') : 'STEP',
                 this.world().Arduino.transpile(
                     this.mappedCode(),
                     this.parentThatIsA(ScriptsMorph).children.filter(

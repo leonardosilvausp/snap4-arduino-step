@@ -1,10 +1,10 @@
 {
     "main": "index.html",
     "version": "override_me",
-    "name": "Snap4Arduino",
-    "description": "Snap4Arduino",
+    "name": "STEP",
+    "description": "STEP",
     "window": {
-        "title": "Snap4Arduino",
+        "title": "STEP",
         "icon": "s4a/icon-128.png",
         "frame": true,
         "position": "center",
@@ -28,7 +28,7 @@
     "licenses": [
         {
             "type": "AGPLv2",
-            "url": "https://raw.githubusercontent.com/bromagosa/Snap4Arduino/master/LICENSE"
+            "url": "https://raw.githubusercontent.com/bromagosa/STEP/master/LICENSE"
         }
     ],
     "maintainers":[
@@ -39,14 +39,14 @@
         },
         {
             "name": "Bernat Romagosa",
-            "email": "bernat@snap4arduino.rocks",
+            "email": "bernat@STEP.rocks",
             "web": "http://romagosa.work"
         }
     ],
     "repositories": [
        {
             "type": "git", 
-            "url": "https://github.com/bromagosa/Snap4Arduino.git"
+            "url": "https://github.com/bromagosa/STEP.git"
        }
     ],
     "chromium-args": "--disable-raf-throttling"

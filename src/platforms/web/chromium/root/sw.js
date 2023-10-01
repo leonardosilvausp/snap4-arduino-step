@@ -684,6 +684,13 @@ var snapVersion = '8.0.99',
         'Costumes/echidna.svg',
         'Costumes/echidnaJr.png',
 
+        // STEP
+        'Costumes/corujito.png',
+        'Costumes/dog.png',
+        'Costumes/person-1.png',
+        'Costumes/person-2.png',
+        'Costumes/sete.png',
+
         // Backgrounds
         'Backgrounds/BACKGROUNDS',
 
