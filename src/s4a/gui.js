@@ -23,25 +23,25 @@ SpriteIconMorph.prototype.userMenu = function () {
 
 IDE_Morph.prototype.originalSnapMenu = IDE_Morph.prototype.snapMenu;
 IDE_Morph.prototype.snapMenu = function () {
-    this.originalSnapMenu();
-    var menu = this.world().activeMenu;
+    // this.originalSnapMenu();
+    // var menu = this.world().activeMenu;
 
     // adding s4a items
-    menu.addLine();
-    menu.addItem('About Snap4Arduino...', 'aboutSnap4Arduino');
-    menu.addLine();
-    menu.addItem('Snap4Arduino website', 
-        function() {
-            window.open('http://snap4arduino.rocks', 'Snap4ArduinoWebsite'); 
-        }
-    );
-    menu.addItem('Snap4Arduino repository',
-        function () {
-            window.open('http://github.com/bromagosa/Snap4Arduino', 'SnapSource');
-        }
-    );
+    // menu.addLine();
+    // menu.addItem('About Snap4Arduino...', 'aboutSnap4Arduino');
+    // menu.addLine();
+    // menu.addItem('Snap4Arduino website', 
+    //     function() {
+    //         window.open('http://snap4arduino.rocks', 'Snap4ArduinoWebsite'); 
+    //     }
+    // );
+    // menu.addItem('Snap4Arduino repository',
+    //     function () {
+    //         window.open('http://github.com/bromagosa/Snap4Arduino', 'SnapSource');
+    //     }
+    // );
 
-    menu.popup(this.world(), this.logo.bottomLeft());
+    // menu.popup(this.world(), this.logo.bottomLeft());
 };
 
 IDE_Morph.prototype.originalSettingsMenu = IDE_Morph.prototype.settingsMenu;

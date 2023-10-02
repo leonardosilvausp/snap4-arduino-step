@@ -131,6 +131,13 @@ build() {
         cp src/src/gui.js tmp/src/gui.js 
 
         echo "Fetching Snap4Arduino core..."
+
+        echo "Changing Manifest setup of Snap..."
+        cp src/src/manifest.json tmp/manifest.json
+
+        echo "Copying images of manifest.json..."
+        cp -R assets/icons/*.png tmp/img
+
         if ! cp -R src/s4a tmp; then
             print_error "Could not find Snap4Arduino core. Please make sure a src/s4a exists and contains the Snap4Arduino core files."
             exit 1
